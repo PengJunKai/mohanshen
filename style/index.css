@@ -26,6 +26,7 @@ header {
     font-size: 1.4em;
     font-weight: 600;
     margin-right: 30px;
+    cursor: pointer;
 }
 #indexMenu {
     text-decoration: underline;
@@ -54,6 +55,8 @@ header {
     bottom: 1.4%;
     width: 220px;
     height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
     margin-left: -110px;
     text-align: center;
     cursor: pointer;
@@ -63,7 +66,6 @@ header {
     font-weight: 700;
 }
 .about {
-
     color: #666666;
     font-size: 1.4em;
     width: 400px;
