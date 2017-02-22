@@ -70,13 +70,50 @@ header {
     font-size: 1.4em;
     width: 400px;
     text-align:center;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 20px auto;
 }
 .about p {
     margin:4px 0;
 }
-.teamDiv {
-    width: 100%;
-    background: #000000;
-    text-align:center;
+.imageDiv {
+    background-color:#E7E7E7;
+    text-align: center;
+    position: relative;
+}
+.imageDiv > p {
+    font-size: 1.2em;
+}
+.imageDemo {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 100px;
+}
+.imageDemo > img{
+    height: 275px;
+    margin: 40px 0;
+}
+.imageDemo > p{
+    margin: 0 auto;
+    width: 380px;
+    font-size: 1.2em;
+    text-align: left;
+}
+.more {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #C92A48;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 700;
 }
