@@ -2,42 +2,70 @@ html body {
     width: 100%;
     height: 100%;
     margin: 0;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 header {
-    height: 980px;
-    background: url(../images/headerbg2.jpg) no-repeat 0 0;
-    background-size: 1920px 1280px;
+    height: 1079px;
+    background: url(../images/headerbg3.jpg) no-repeat 0 70px;
+    background-size: 1920px 1079px;
+}
+.menuDiv {
+    height: 70px;
+    line-height: 70px;
+}
+.menuDiv img {
+    height: 70px;
+    margin-left: -70px;
+}
+.menu {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+.menu span{
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-right: 30px;
+}
+#indexMenu {
+    text-decoration: underline;
 }
 .titleDiv {
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 50%;
-    width: 286px;
-    margin-left: -143px;
+    width: 700px;
+    margin-left: -350px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .title {
-    color: #999999;
     font-size: 3.5em;
+}
+.titleDiv p {
+    font-size: 1.2em;
+}
+.titleEn {
+    font-style: italic;
 }
 .startDiv  {
     position: absolute;
     left: 50%;
-    bottom: 1%;
-    width: 78px;
-    margin-left: -39px;
-    text-align:center;
+    bottom: 1.4%;
+    width: 220px;
+    height: 60px;
+    margin-left: -110px;
+    text-align: center;
     cursor: pointer;
-}
-.start{
+    background-color: #C92A48;
     color: #FFFFFF;
     font-size: 1.2em;
-    margin: 0;
+    font-weight: 700;
 }
 .about {
 
     color: #666666;
     font-size: 1.4em;
-    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
     width: 400px;
     text-align:center;
     margin: 20px auto 0 auto;
