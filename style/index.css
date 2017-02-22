@@ -49,21 +49,23 @@ header {
 .titleEn {
     font-style: italic;
 }
-.startDiv  {
-    position: absolute;
-    left: 50%;
-    bottom: 1.4%;
+.redMenu {
     width: 220px;
     height: 60px;
     line-height: 60px;
     vertical-align: middle;
-    margin-left: -110px;
     text-align: center;
-    cursor: pointer;
     background-color: #C92A48;
     color: #FFFFFF;
     font-size: 1.2em;
     font-weight: 700;
+    cursor: pointer;
+}
+.startDiv  {
+    position: absolute;
+    left: 50%;
+    bottom: 1.4%;
+    margin-left: -110px;
 }
 .about {
     color: #666666;
@@ -79,9 +81,26 @@ header {
     background-color:#E7E7E7;
     text-align: center;
     position: relative;
+    padding-top: 30px;
 }
-.imageDiv > p {
+.frame {
+    width: 80px;
+    height: 50px;
+    border: 2px solid #000000;
+    margin: 0 auto;
+}
+#frameUp {
+    border-bottom-color: #E7E7E7;
+}
+#frameDown {
+    border-top-color: #E7E7E7;
+}
+.imageDiv h1,.designDiv h1,.messageDiv h1{
+    margin-top: 0;
+}
+.imageDiv > p,.designDiv > p,.messageDiv > p {
     font-size: 1.2em;
+    margin-bottom: 6px;
 }
 .imageDemo {
     box-sizing: border-box;
@@ -108,12 +127,44 @@ header {
     right: 30px;
     bottom: 20px;
     width: 220px;
-    height: 60px;
-    line-height: 60px;
+}
+.designDiv {
     text-align: center;
-    cursor: pointer;
-    background-color: #C92A48;
-    color: #FFFFFF;
-    font-size: 1.2em;
-    font-weight: 700;
+    padding-bottom: 100px;
+}
+.designDemos {
+    margin-top: 50px;
+}
+.designDemo {
+    display: inline-block;
+    width: 400px;
+    position: relative;
+}
+.designDemo p {
+   font-size: 1.4em;
+}
+.designImg {
+    width: 300px;
+}
+.diagonal {
+    width: 60px;
+    position: absolute;
+    right: -30px;
+    top: 37px;
+}
+.messageDiv {
+    background-color: #CCCCCC;
+    text-align: center;
+    padding-top: 30px;
+}
+.message {
+    width: 900px;
+    height: 350px;
+    border: 2px solid #000000;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: left;
+}
+.submit {
+    margin: 20px auto;
 }
