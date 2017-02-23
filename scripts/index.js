@@ -10,26 +10,26 @@ var _photoJson =
         {
             "alt": "Moon",
             "pid": 1,
-            "src": "https://www.negativespace.co/wp-content/uploads/2017/02/4izt8txqmes-anders-jilden-768x512.jpg",
-            "thumb": "https://www.negativespace.co/wp-content/uploads/2017/02/4izt8txqmes-anders-jilden-768x512.jpg"
+            "src": "http://www.mohanshen.com/photos/4izt8txqmes-anders-jilden-768x512.jpg",
+            "thumb": "http://www.mohanshen.com/photos/4izt8txqmes-anders-jilden-768x512.jpg"
         },
         {
             "alt": "Friends",
             "pid": 2,
-            "src": "https://www.negativespace.co/wp-content/uploads/2017/02/i-m-priscilla-149914-1062x708.jpg",
-            "thumb": "https://www.negativespace.co/wp-content/uploads/2017/02/i-m-priscilla-149914-1062x708.jpg"
+            "src": "http://www.mohanshen.com/photos/i-m-priscilla-149914-1062x708.jpg",
+            "thumb": "http://www.mohanshen.com/photos/i-m-priscilla-149914-1062x708.jpg"
         },
         {
             "alt": "Father",
             "pid": 3,
-            "src": "https://www.negativespace.co/wp-content/uploads/2017/02/caleb-jones-131203-473x708.jpg",
-            "thumb": "https://www.negativespace.co/wp-content/uploads/2017/02/caleb-jones-131203-473x708.jpg"
+            "src": "http://www.mohanshen.com/photos/caleb-jones-131203-473x708.jpg",
+            "thumb": "http://www.mohanshen.com/photos/caleb-jones-131203-473x708.jpg"
         },
         {
             "alt": "Camera",
             "pid": 4,
-            "src": "https://www.negativespace.co/wp-content/uploads/2017/02/6e26rfp0zbu-jacob-sapp-1062x708.jpg",
-            "thumb": "https://www.negativespace.co/wp-content/uploads/2017/02/6e26rfp0zbu-jacob-sapp-1062x708.jpg"
+            "src": "http://www.mohanshen.com/6e26rfp0zbu-jacob-sapp-1062x708.jpg",
+            "thumb": "http://www.mohanshen.com/6e26rfp0zbu-jacob-sapp-1062x708.jpg"
         }
     ]
 };
@@ -46,9 +46,10 @@ $("#imageMenu,#designMenu").click(function () {
     layer.msg("不存在的");
 });
 
-$("#aboutMenu").click(function() {
+$("#aboutMenu").click(function () {
     layer.photos({
         photos: _photoJson
     });
 });
+
 
