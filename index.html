@@ -16,8 +16,8 @@
                 <span id="indexMenu">主页</span>
                 <span id="imageMenu">影像说</span>
                 <span id="designMenu">设计诗</span>
-                <span id="message">留言区</span>
-                <span>关于</span>
+                <span id="messageMenu">留言区</span>
+                <span id="aboutMenu">关于</span>
             </div>
         </div>
 
@@ -27,7 +27,7 @@
             <p class="titleEn">I don't want to regret about yesterday, or i don't think about tomorrow,</p>
             <p class="titleEn">because now is good, live in this moment.</p>
         </div>
-        <div class="redMenu startDiv">
+        <div class="redMenu" id="startDiv">
             All about us
         </div>
     </header>
@@ -46,7 +46,7 @@
     <div class="imageDiv">
         <div class="frame" id="frameUp"></div>
         <h1>影 & 像</h1>
-        <p>摄像和摄像师两个不同的概念，知道今天的都还是很模糊。我唯一知道的就是</p>
+        <p>摄影和摄像是两个不同的概念，至今今天的都还是很模糊。我唯一知道的就是</p>
         <p>它们可以留下时光中的每一刻</p>
         <div class="frame" id="frameDown"></div>
 
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="redMenu more">
+        <div class="redMenu" id="more">
             more>>
         </div>
     </div>
@@ -85,7 +85,7 @@
             </div>
             <div class="designDemo">
                 <p>3</p>
-                <p>Mg动画</p>
+                <p>MG动画</p>
                 <img class="designImg" src="images/black.png">
             </div>
         </div>
@@ -99,9 +99,13 @@
                 留言
             </div>
         </div>
-        <div class="redMenu submit">
+        <div class="redMenu" id="submit">
             提交
         </div>
     </div>
+
+    <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="bower_components/layer-v3.0.1/layer/layer.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 </html>
