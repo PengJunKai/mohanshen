@@ -66,10 +66,14 @@ header {
     font-weight: 700;
     cursor: pointer;
 }
+.redMenu:hover {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg)
+}
 #startDiv  {
     position: absolute;
     left: 50%;
-    bottom: 1.4%;
+    bottom: 40px;
     margin-left: -110px;
 }
 .about {

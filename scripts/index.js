@@ -45,17 +45,25 @@ $("#submit").click(function() {
    layer.msg("后台都没有，你提交个蛋啊");
 });
 $("#indexMenu").click(function () {
-    $("body").scrollTop(0);
+    $("body").animate({
+        scrollTop: 0
+    }, scrollTime(0)/1.4);
 })
 $("#imageMenu").click(function () {
-    $("body").scrollTop(_top[0]);
+    $("body").animate({
+        scrollTop: _top[0]
+    }, scrollTime(_top[0])/1.4);
 });
 
 $("#designMenu").click(function () {
-    $("body").scrollTop(_top[1]);
+    $("body").animate({
+        scrollTop: _top[1]
+    }, scrollTime(_top[1])/1.4);
 });
 $("#messageMenu").click(function () {
-    $("body").scrollTop(_top[2]);
+    $("body").animate({
+        scrollTop: _top[2]
+    }, scrollTime(_top[2])/1.4);
 })
 
 $("#aboutMenu").click(function () {
@@ -64,9 +72,22 @@ $("#aboutMenu").click(function () {
     });
 })
 
-$("#more").click(function () {
-
+$("#startDiv").click(function () {
+    $("body").animate({
+        scrollTop: 345
+    }, scrollTime (345)/1.4);
+    $('#aboutOther').addClass('animated fadeInLeftBig');
+    $('#aboutName').addClass('animated fadeInRightBig');
+    setTimeout(function(){
+        $('#aboutOther').removeClass('fadeInLeftBig');
+        $('#aboutName').removeClass('fadeInRightBig');
+    }, 1000);
 });
+
+function scrollTime (top) {
+    var winTop = $(window).scrollTop();
+    return (top-winTop)>0 ? (top-winTop) : (winTop-top);
+}
 
 
 $(document).ready(function(){
