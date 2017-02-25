@@ -3,11 +3,13 @@ html body {
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    overflow-x:hidden;
 }
 header {
     height: 1079px;
     background: url(../images/headerbg3.jpg) no-repeat 0 0;
     background-size: 1920px 1079px;
+    position: relative;
 }
 .menuDiv {
     height: 70px;
@@ -73,7 +75,7 @@ header {
 #startDiv  {
     position: absolute;
     left: 50%;
-    bottom: 40px;
+    bottom: 12%;
     margin-left: -110px;
 }
 .about {

@@ -76,11 +76,11 @@ $("#startDiv").click(function () {
     $("body").animate({
         scrollTop: 345
     }, scrollTime (345)/1.4);
-    $('#aboutOther').addClass('animated fadeInLeftBig');
-    $('#aboutName').addClass('animated fadeInRightBig');
+    $('#aboutOther').addClass('animated fadeInRight');
+    $('#aboutName').addClass('animated fadeInLeftBig');
     setTimeout(function(){
-        $('#aboutOther').removeClass('fadeInLeftBig');
-        $('#aboutName').removeClass('fadeInRightBig');
+        $('#aboutOther').removeClass('fadeInRight');
+        $('#aboutName').removeClass('fadeInLeftBig');
     }, 1000);
 });
 
