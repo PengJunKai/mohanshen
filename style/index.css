@@ -168,6 +168,7 @@ header {
     background-color: #CCCCCC;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .message {
     width: 900px;
@@ -179,4 +180,16 @@ header {
 }
 #submit {
     margin: 20px auto;
+}
+
+.codeDiv {
+    height: 400px;
+    width: 640px;
+    margin: 0 auto;
+    line-height: 400px;
+    vertical-align: middle;
+    font-size: 2em;
+}
+.codeDiv img {
+    vertical-align: middle;
 }
